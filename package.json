@@ -1,0 +1,20 @@
+{
+  "name": "ci-cd",
+  "version": "1.0.0",
+  "description": "CI & CD demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test...",
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "rsync": "^0.6.1",
+    "shelljs": "^0.8.3",
+    "yargs": "^15.0.2"
+  }
+}
