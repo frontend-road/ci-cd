@@ -1,3 +1,3 @@
 # Hello VuePress!
 
-## CI/CD demo
+## CI/CD
