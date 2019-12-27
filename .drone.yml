@@ -4,12 +4,12 @@ type: docker
 name: web
 
 steps:
-  - name: install
+  - name: 安装依赖
     image: node:alpine
     commands:
       - npm i --registry=https://registry.npm.taobao.org
 
-  - name: test
+  - name: 测试
     image: node:alpine
     commands:
       - npm run test
